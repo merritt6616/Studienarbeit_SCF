@@ -17,3 +17,5 @@ git log
 git checkout "Name"
 
 git checkout -b "Name"
+
+git log --oneline --all --graph --decorate
