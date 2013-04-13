@@ -1,0 +1,19 @@
+git clone [Adresse]
+
+git remote add origin [Adresse]
+
+git push -u origin master
+
+git push
+
+git pull
+
+git init
+
+git branch "Name"
+
+git log
+
+git checkout "Name"
+
+git checkout -b "Name"
