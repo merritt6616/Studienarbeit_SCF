@@ -4,7 +4,7 @@
 
 3. Kostenkalkulator inklusive Rechner (Das Frontend wäre relativ simple)
 
-4. Kaufnavigator mit Preisvergleich (für Amberg: Lidl, Aldi etc.)
+4. Kaufnavigator mit Preisvergleich für verschiedene Katalog-Anbieter
 
 5. Nebenjob/Werkstudent -> eine Art Stellenauschreibung
 
