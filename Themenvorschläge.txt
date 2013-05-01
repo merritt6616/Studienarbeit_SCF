@@ -1,4 +1,4 @@
-1. Hochschulführer (Gänge, Hörsäle, etc.)
+﻿1. Hochschulführer (Gänge, Hörsäle, etc.)
 
 2. Wie wäre es mit einem kleinen Wiki zu den verschiedenen Studiengängen, Professoren etc an unserer HAW?
 
@@ -12,3 +12,13 @@
 
 
 Das sind soweit mal meine Vorschläge. Schönes Wochenende, Gruß # Stephan
+
+
+
+1. Kneipen/Club/Bar App für Amberg (Preise, Veranstaltungen etc.)
+
+2. Die Medienausleihe an der HAW per App (vielleicht auch Bib?)
+
+3. Vllt sone Art TUtorial über des ganze Fach? Also mit GIT und Wireframes usw?
+
+Finde deinen Vorschlag mit dem Wiki ganz gut! Schönen 1.Mai # Niko
