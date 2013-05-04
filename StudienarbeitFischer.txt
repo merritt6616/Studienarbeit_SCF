@@ -1,0 +1,9 @@
+1. 	Eine App, die sämtliche Kneipen/Clubs/Bars in Amberg beinhaltet.
+	Preislisten, Veranstaltungen, Wegbeschreibung etc. werden aufgelistet
+	Nutzer können evtl. Inhalte beisteuern (Bewertungen, Anmerkungen, Rating-System)
+
+2. 	Besucherzahl (Wer die App drauf hat, bekommt einen Schnaps umsonst)
+	
+3.	Siehe Anhang
+4.	
+5.	
