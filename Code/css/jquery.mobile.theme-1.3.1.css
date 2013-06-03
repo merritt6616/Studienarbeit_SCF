@@ -13,6 +13,33 @@
 /* Swatches */
 /* A
 -----------------------------------------------------------------------------------------------------------*/
+/* KATALOG HAUPTSEITE CSS*/
+#container img.front {
+	max-width: 60px;
+	max-height: 75px;
+	display:inline-block;
+	margin:auto;
+	background-color:#FFF
+}
+
+#c {
+	margin:auto;
+	text-align:center;
+}
+a img:hover {
+    opacity: .65;
+}
+a img{
+	border:0;
+}
+
+a:visited img {
+border:0;
+}
+	
+
+
+	
 
 /* custom button icons */
 
