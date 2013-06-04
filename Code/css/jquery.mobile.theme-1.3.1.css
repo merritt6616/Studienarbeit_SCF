@@ -14,34 +14,58 @@
 /* A
 -----------------------------------------------------------------------------------------------------------*/
 /* KATALOG HAUPTSEITE CSS*/
-#container img.front {
-	max-width: 60px;
-	max-height: 75px;
-	display:inline-block;
-	margin:auto;
-	background-color:#FFF
+#centered {
+	min-width: 220px:
+	max-width:600px;
+	padding-top:10px;
+}
+#centered img { 
+	max-width:60px;
+	max-height:75px;
+	background-color:#FFF;
 }
 
-#c {
-	margin:auto;
-	text-align:center;
+#container{
+	float: left;
+	position: relative;
+	left: 50%;
+}
+
+#centered{
+	float: left;
+	position: relative;
+	left: -50%;
 }
 a img:hover {
-    opacity: .65;
+	opacity: .65;
 }
+
 a img{
 	border:0;
 }
 
 a:visited img {
-border:0;
+	border:0;
 }
-	
+
+a:active {
+	outline:0;
+}
+
+a:focus {
+	outline:0;
+}
 
 
-	
 
-/* custom button icons */
+
+
+
+
+
+
+
+/* custom button  icons */
 
 div[data-role=navbar] .ui-btn .ui-btn-inner { 
       padding-top: 50px; 
