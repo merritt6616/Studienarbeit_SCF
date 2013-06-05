@@ -73,8 +73,34 @@ a:focus {
 
 /*Kategorien*/
 
+#category-box a {
+	min-width: 220px; 				/*Maximale und minimale Breite*/
+	max-width: 600px;
+	/*max-height: 40px;*/
+	padding: 0.5em 0em 0.25em 0.25em;
+	background-color: #cccacd; 		/*Grauer Box Hintergrund*/
+	border-bottom-style: groove; 	/*Bottom Style*/
+	border-bottom-color: #999; 		/*Dunkelgraue Bottom Linie*/
+	border-bottom-width: 3px; 		/*Bottom Rundung*/
+	border-radius: 15px;
+	position:inherit; 				/* Brauch ich das?? */
+	display: block; 				/*Damit die Kategorien zentral untereinander dargestellt werden*/
 
+}
 
+.category {
+	width: 100%;
+	background-repeat: no-repeat;
+	text-decoration:none;
+	margin: 0.5em auto;
+}
+
+p.style {
+	text-align: center;
+	color:#656366;
+	letter-spacing: 0.15em;
+	margin: auto;
+}
 
 
 /* custom button  icons */
