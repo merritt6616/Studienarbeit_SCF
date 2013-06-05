@@ -13,6 +13,15 @@
 /* Swatches */
 /* A
 -----------------------------------------------------------------------------------------------------------*/
+
+/*Content */
+div[data-role~=page]{
+  height: 100%;
+  background: url('../images/binding_dark.png') !important;
+}
+
+
+
 /* KATALOG HAUPTSEITE CSS*/
 
 #container a img { 
