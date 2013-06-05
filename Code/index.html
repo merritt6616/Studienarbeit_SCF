@@ -76,14 +76,13 @@
 	<div data-role="content">
         
         <div id="category-box">
-        
-		<a class="category" href=""><img src="images/categories/office.png"> <p class="style">Büro</p></a>
-        <a class="category" href=""><img src="images/categories/healthcare.png"> <p class="style">Gesundheit</p></a>
-        <a class="category" href=""><img src="images/categories/electronic.png"> <p class="style">Elektronik</p></a>
-        <a class="category" href=""><img src="images/categories/photography.png"> <p class="style">Fotografie</p></a>
-        <a class="category" href=""><img src="images/categories/baby.png"> <p class="style">Baby</p></a>
-        <a class="category" href=""><img src="images/categories/beauty.png"> <p class="style">Beauty</p></a>
-        <a class="category" href=""><img src="images/categories/house_and_garden.png"> <p class="style">House &amp; Garden</p></a>
+       <!-- a-tags müssen data-attributen da das hier jquery-mobile ist. diese attribute machen haufenweise sachen selber.manche, gut, manche eher meh. 
+	macht ein wenig umständlich oder unfelxibel manchmal.
+	 --> 
+		<a id="buero" class="category" data-icon="custom" data-role="button" href="">Büro</a>
+        <a id="gesundheit" class="category" data-icon="custom" data-role="button"  href="">Gesundheit</a>
+        <a id="elektronik" class="category" data-icon="custom" data-role="button" href="">Elektronik</a>
+        <a id="fotografie" class="category"  data-icon="custom" data-role="button" href="">Fotografie</a>
         
         </div>
         
@@ -92,11 +91,11 @@
 	<div data-role="footer" data-id="footer_1" data-position="fixed">
 	<div data-role="navbar">
 		<ul> 
-	<li><a id="mehr" data-corners="false" data-shadow="false" data-transition="fade" data-icon="custom" data-iconpos="top" class="ui-state-persist ui-btn-active" href="#mehr">Mehr</a></li>
+	<li><a id="mehr" data-corners="false" data-shadow="false" data-transition="fade" data-icon="custom" data-iconpos="top"  href="#mehr">Mehr</a></li>
 	<li><a id="bookmark" data-corners="false" data-shadow="false" data-transition="fade" data-icon="custom" data-iconpos="top" href="">Lesezeichen</a></li>
 		<li><a id="home" data-corners="false" data-shadow="false" data-transition="fade" data-icon="custom" data-iconpos="top"  href="#start-page">Start</a></li>
 		<li><a id="search" data-corners="false" data-shadow="false" data-transition="fade" data-icon="custom" data-iconpos="top" href="">Suche</a></li>
-		<li><a id="categories" data-corners="false" data-shadow="false" data-transition="fade" data-icon="custom" data-iconpos="top" href="#category-page">Kategorien</a></li>
+		<li><a id="categories" data-corners="false" data-shadow="false" data-transition="fade" data-icon="custom" data-iconpos="top" class="ui-state-persist ui-btn-active" href="#category-page">Kategorien</a></li>
 		</ul>
 		
 	</div>
