@@ -15,28 +15,28 @@
     <script src="js/jquery.mobile-1.3.1.min.js"></script>
 </head>
 <body>
-<div data-role="page" id="start">
+<div data-role="page" id="start-page">
 	<div data-role="header" data-position="fixed">
 		<h1>Kataloge</h1>	
 	</div>
-	<div data-role="content" id="c">
-    	<div id="container">
-        	<a href="http://www.ikea.com/de/de/">	<img src="images/ikea.jpg" 			class="front"></a>
-			<a href="http://www.mediamarkt.de/">	<img src="images/mediamarkt.jpg"	class="front"></a>
-			<a href="http://www.conrad.de/ce/">		<img src="images/conrad.jpg" 		class="front"></a>
-			<a href="http://www.dertour.de/">		<img src="images/dertour.jpg" 		class="front"></a>
-			<a href="http://www.textil-mode.de/">	<img src="images/textil.jpg" 		class="front"></a>
-			<a href="http://www.saturn.de/">		<img src="images/saturn.jpg" 		class="front"></a>
 
-</div>
+	<div id="container">
+
+        	<a class="left" href="http://www.ikea.com/de/de/"><img src="images/ikea.jpg"></a>
+        	<a class="right" href="http://www.conrad.de/ce/"><img src="images/conrad.jpg"></a>
+        	<a class="middle" href="http://www.mediamarkt.de/"><img src="images/mediamarkt.jpg"></a>
+        	<a class="left" href="http://www.dertour.de/"><img src="images/dertour.jpg"></a>
+        	<a class="right" href="http://www.saturn.de/"><img src="images/saturn.jpg"></a>
+        	<a class="middle" href="http://www.textil-mode.de/"><img src="images/textil.jpg"></a>        	  
+
 
 	</div><!-- /content -->
 	<div data-role="footer" data-id="footer_1" data-position="fixed">
 	<div data-role="navbar">
 		<ul> 
-		<li><a id="mehr" data-corners="false" data-shadow="false" data-transition="fade" data-icon="custom" data-iconpos="top" href="#mehr">Mehr</a></li>
-		<li><a id="bookmark" data-corners="false" data-shadow="false" data-transition="fade" data-icon="custom" data-iconpos="top" href="">Lesezeichen</a></li>
-		<li><a id="home" data-corners="false" data-shadow="false" data-transition="fade" data-icon="custom" data-iconpos="top" class="ui-state-persist ui-btn-active" href="">Start</a></li>
+		<li><a id="mehr" data-corners="false" data-shadow="false" data-transition="fade" data-icon="custom" data-iconpos="top" href="#mehr-page">Mehr</a></li>
+		<li><a id="bookmark"  data-corners="false" data-shadow="false" data-transition="fade" data-icon="custom" data-iconpos="top" href="">Lesezeichen</a></li>
+		<li><a id="home"  data-corners="false" data-shadow="false" data-transition="fade" data-icon="custom" data-iconpos="top" class="ui-state-persist ui-btn-active" href="">Start</a></li>
 		<li><a id="search" data-corners="false" data-shadow="false" data-transition="fade" data-icon="custom" data-iconpos="top" href="">Suche</a></li>
 		<li><a id="categories" data-corners="false" data-shadow="false" data-transition="fade" data-icon="custom" data-iconpos="top" href="">Kategorien</a></li>
 		</ul>
@@ -44,23 +44,26 @@
 	</div>
 </div><!-- /page -->
 
-<div data-role="page" id ="mehr">
+<div data-role="page" id ="mehr-page">
 	<div data-role="header" data-position="fixed">
 		<h1>Kataloge</h1>	
 	</div>
 	<div data-role="content" >
 	
         <p class="message">MEHR </p>
+    </div>
 <!-- /content -->	
 	<div data-role="footer" data-id="footer_1" data-position="fixed">
 	<div data-role="navbar">
 		<ul> 
-		<li><a data-corners="false" data-shadow="false" data-transition="fade" data-icon="gear" data-iconpos="top" class="ui-state-persist ui-btn-active" href="#mehr">Mehr</a></li>
+		<li><a id="mehr" data-corners="false" data-shadow="false" data-transition="fade" data-icon="custom" data-iconpos="top" class="ui-state-persist ui-btn-active" href="#mehr">Mehr</a></li>
+		
 		<li><a id="bookmark" data-corners="false" data-shadow="false" data-transition="fade" data-icon="custom" data-iconpos="top" href="">Lesezeichen</a></li>
-		<li><a data-corners="false" data-shadow="false" data-transition="fade" data-icon="home" data-iconpos="top" href="#start">Start</a></li>
-		<li><a data-corners="false" data-shadow="false" data-transition="fade" data-icon="search" data-iconpos="top" href="">Suche</a></li>
+		<li><a id="home" data-corners="false" data-shadow="false" data-transition="fade" data-icon="custom" data-iconpos="top"  href="#start-page">Start</a></li>
+		<li><a id="search" data-corners="false" data-shadow="false" data-transition="fade" data-icon="custom" data-iconpos="top" href="">Suche</a></li>
 		<li><a id="categories" data-corners="false" data-shadow="false" data-transition="fade" data-icon="custom" data-iconpos="top" href="">Kategorien</a></li>
 		</ul>
+		
 	</div>
 	</div>
 	</div><!-- /page -->
