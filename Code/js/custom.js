@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    $('#product-page').on('click', '.bookmark.set', function(e){
+    $(document).on('click', '.bookmark.set', function(e){
         e.preventDefault();
         var productname = $(this).attr('id');
         var thisLink = $(this);
@@ -18,7 +18,7 @@ $(document).ready(function(){
 
         });
     });
-    $('#product-page').on('click', '.bookmark.unset', function(e){
+    $(document).on('click', '.bookmark.unset', function(e){
         e.preventDefault();
         var productname = $(this).attr('id');
         var thisLink = $(this);

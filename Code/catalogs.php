@@ -13,6 +13,7 @@
     <link rel="stylesheet"  href="css/jquery.mobile.theme-1.3.1.css">
     <script src="js/jquery.js"></script>
     <script src="js/jquery.mobile-1.3.1.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
 </head>
 <body>
 
@@ -67,6 +68,5 @@
 	</div>
 	</div>
 </div><!-- /page -->
-<script type="text/javascript" src="js/custom.js"></script>
 </body>
 </html>

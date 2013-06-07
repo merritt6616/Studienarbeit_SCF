@@ -13,6 +13,7 @@
     <link rel="stylesheet"  href="css/jquery.mobile.theme-1.3.1.css">
     <script src="js/jquery.js"></script>
     <script src="js/jquery.mobile-1.3.1.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
 </head>
 <body>
 
@@ -49,7 +50,7 @@
                             <div class="info">
                                 <span>'.$product['katalog_name'].'</span>
                             </div>
-                    	        <a  href="#product-page"><img src="images/'.$product['katalog_name'].'.jpg"></a>
+                    	        <a  href="products.php"><img src="images/'.$product['katalog_name'].'.jpg"></a>
                         </div>
                      	';
                     }
@@ -79,6 +80,5 @@
 
 
 
-<script type="text/javascript" src="js/custom.js"></script>
 </body>
 </html>
