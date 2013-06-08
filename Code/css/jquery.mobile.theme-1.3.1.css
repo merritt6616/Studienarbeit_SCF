@@ -16,7 +16,6 @@
 
 /*Content */
 div[data-role~=page]{
-  height: 100%;
   background: url('../images/binding_dark.png');
 }
 
@@ -174,6 +173,11 @@ div[data-role=navbar] .ui-btn .ui-icon {
     float: right;
 }
 
+#product-page .buttonGroup{
+	width: 100%;
+	margin: 0.5em 0 0 0;
+}
+
 #product-page .bookmark .ui-icon{
     width: 40px;
 	height: 40px;
@@ -196,6 +200,26 @@ div[data-role=navbar] .ui-btn .ui-icon {
 
 
 
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+html[xmlns] .clearfix {
+	display: block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
 
 
 

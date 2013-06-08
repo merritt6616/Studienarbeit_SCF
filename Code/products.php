@@ -49,7 +49,8 @@
                    <p>
                         '.$product['description'].'
                    </p>
-                   <div class="buttonGroup" data-role="controlgroup" data-type="horizontal">
+		</div>
+                   <div class="buttonGroup clearfix" data-role="controlgroup" >
                     <a href="http://www.mediamarkt.de/" target="_blank" data-role="button" >Zum Shop</a>';
 
 
@@ -57,7 +58,7 @@
                     echo '<a id="'.$product['product_name'].'" class="bookmark unset" href="" data-icon="custom" data-theme="b" data-role="button" > Lesezeichen gesetzt</a>';
                 else if ($product['bookmarked'] == 0)
                     echo '<a id="'.$product['product_name'].'" class="bookmark set" data-theme="c" href="" data-icon="custom" data-role="button" > Lesezeichen setzen </a>';
-                echo '</div>
+                echo '
                 </div>
                 </div>';
                 }
@@ -70,11 +71,11 @@
 
     </div>
 <!-- /content -->
-	<div data-role="footer" data-id="footer_1" data-position="fixed">
+	<div data-role="footer" data-id="footer_1" data-position="fixed"  >
 	<div data-role="navbar">
 		<ul>
-	<li><a id="mehr" data-corners="false" data-shadow="false" data-transition="fade" data-icon="custom" data-iconpos="top"  href="">Mehr</a></li>
-	<li><a id="bookmark" data-corners="false" data-shadow="false" data-transition="fade" data-icon="custom" data-iconpos="top" href="bookmarks.php">Lesezeichen</a></li>
+	    <li><a id="mehr" data-corners="false" data-shadow="false" data-transition="fade" data-icon="custom" data-iconpos="top"  href="">Mehr</a></li>
+	    <li><a id="bookmark" data-corners="false" data-shadow="false" data-transition="fade" data-icon="custom" data-iconpos="top" href="bookmarks.php">Lesezeichen</a></li>
 		<li><a id="home" data-corners="false" data-shadow="false" data-transition="fade" data-icon="custom" data-iconpos="top"  href="catalogs.php">Start</a></li>
 		<li><a id="search" data-corners="false" data-shadow="false" data-transition="fade" data-icon="custom" data-iconpos="top" href="">Suche</a></li>
 		<li><a id="categories" data-corners="false" data-shadow="false" data-transition="fade" data-icon="custom" data-iconpos="top"   href="categories.php">Kategorien</a></li>
